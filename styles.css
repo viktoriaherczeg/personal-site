@@ -19,6 +19,11 @@ body {
     font-weight: 700;
 }
 
+.navbar-toggler {
+    color: #206a5d;
+    font-size: 2rem;
+}
+
 .active {
     background-color: #206a5d;
     border-radius: 10px 10px 10px 10px;

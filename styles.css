@@ -1,0 +1,142 @@
+body {
+    position: relative;
+    margin: 0 0 0 0;
+    font-family: "Raleway";
+}
+
+/* Customizing Navbar */
+
+.navbar-custom {
+    background-color: #1b1c25;
+}
+
+.navbar-collapse a {
+    color: #ebecf1;
+}
+
+.navbar-brand {
+    color: #206a5d;
+    font-weight: 700;
+}
+
+.active {
+    background-color: #206a5d;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.navbar-collapse {
+    justify-content:flex-end;
+}
+
+/* Sections - general */
+
+.section-heading {
+    font-family: 'Vollkorn';
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/*Home Section*/
+
+.home{
+    background-image: url('https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+.intro {
+    font-family: 'Vollkorn';
+    font-size: 2em;
+    color: #ebecf1;
+}
+
+/* Interests Section */
+
+#interests {
+    text-align: center;
+    padding: 7% 7%;
+}
+
+#interests p {
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* About Section */
+
+#about {
+    padding: 7% 7%;
+    letter-spacing: 0.1em;
+    background-color: #206a5d;
+    color: #ebecf1;
+}
+
+#about-p {
+    text-align: center;
+    padding-bottom: 5%; 
+}
+
+.about-box-light {
+    text-align: left;
+    color: #ebecf1;
+    background-color: #1b1c25;
+    margin: 3% 3%;
+    border-radius: 21px 21px 21px 21px;
+    padding: 5% 7%;
+}
+
+.about-box-dark {
+    align-items: stretch;
+    text-align: left;
+    color: #1b1c25;
+    background-color: #ebecf1;
+    margin: 3% 3%;
+    border-radius: 21px 21px 21px 21px;
+    padding: 5% 7%;
+}
+
+/* Projects Section */ 
+
+#projects {
+    padding: 7% 14%;
+    text-align: center;
+}
+
+.project-description {
+    padding: 10% 10%;
+}
+
+
+/* Contacts Section */ 
+
+#contacts {
+    text-align: center;
+    padding: 7% 14%;
+    background-color: #206a5d;
+    color: #ebecf1;
+    background-image: url('img/markus-spiske-FZ2EM9aeR9o-unsplash.jpg');
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contacts h2 {
+    margin-bottom: 5%;
+}
+
+.contact-button a{
+    font-size: 3em; 
+    margin: 0 0;
+    color:  #ebecf1;
+}
+
+.contact-button a:hover {
+    color: #68da59;
+}

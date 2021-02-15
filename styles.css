@@ -36,7 +36,7 @@ body {
 /* Sections - general */
 
 .section-heading {
-    font-family: 'Vollkorn';
+    /* font-family: 'Vollkorn'; */
     margin-top: 2em;
     margin-bottom: 1em;
     font-weight: bold;
@@ -55,7 +55,7 @@ body {
    }
 
 .intro {
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn'; 
     font-size: 2em;
     color: #ebecf1;
 }
@@ -113,9 +113,6 @@ body {
     text-align: center;
 }
 
-.project-description {
-    padding: 10% 10%;
-}
 
 
 /* Contacts Section */ 
